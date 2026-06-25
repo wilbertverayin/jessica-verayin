@@ -1,0 +1,16 @@
+{
+  "placeholderImages": [
+    {
+      "id": "profile-photo",
+      "description": "A professional headshot of a female doctor.",
+      "imageUrl": "https://images.unsplash.com/photo-1527613426441-4da17471b66d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmZW1hbGUlMjBkb2N0b3J8ZW58MHx8fHwxNzU5MjQ1NjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female doctor"
+    },
+    {
+      "id": "hero-image",
+      "description": "An abstract image of a medical operating room.",
+      "imageUrl": "https://images.unsplash.com/photo-1685997180450-242a65624238?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxvcGVyYXRpbmclMjByb29tfGVufDB8fHx8MTc1OTI1Mjk0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "operating room"
+    }
+  ]
+}
