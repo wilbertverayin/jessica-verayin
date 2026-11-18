@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Mail, Phone, Linkedin, Facebook, Twitter, Instagram, Download, FileText } from 'lucide-react';
+import { Mail, Phone, FileText } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -8,13 +8,6 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 export default function Home() {
     const profileImage = PlaceHolderImages.find(p => p.id === 'profile-photo');
     const heroImage = PlaceHolderImages.find(p => p.id === 'hero-image');
-
-    const socialLinks = [
-        { icon: Linkedin, href: "#" },
-        { icon: Facebook, href: "#" },
-        { icon: Twitter, href: "#" },
-        { icon: Instagram, href: "#" },
-    ];
 
     return (
         <div className="bg-background min-h-screen font-body text-foreground/90 flex items-center justify-center p-4 sm:p-8 relative overflow-hidden">
@@ -90,15 +83,6 @@ export default function Home() {
                                     </Button>
                                 </div>
                             </section>
-                            <div className="flex justify-center md:justify-start space-x-2 pt-4">
-                                {socialLinks.map((link, index) => (
-                                    <Button key={index} asChild variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
-                                        <Link href={link.href} target="_blank" rel="noopener noreferrer">
-                                            <link.icon />
-                                        </Link>
-                                    </Button>
-                                ))}
-                            </div>
                         </div>
                     </CardContent>
                 </Card>
