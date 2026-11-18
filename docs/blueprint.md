@@ -4,8 +4,7 @@
 
 - Profile Section: Displays a professional photo and name.
 - About Section: Show a brief description of professional experience and skills.
-- Contact Section: Showcase contact information such as email, phone, and social media links.
-- AI-Powered Content Summarizer: Summarize details to keep your profile concise. Use this tool to analyze content and give the important details in as few words as possible.
+- Contact Section: Showcase contact information such as email and phone.
 - Downloadable PDF: Enable users to download their resume as a PDF file.
 
 ## Style Guidelines:
@@ -15,4 +14,4 @@
 - Accent color: Teal (#008080) to highlight interactive elements and call-to-action buttons.
 - Font pairing: 'Belleza' (sans-serif) for headings, 'Alegreya' (serif) for body text, for an artistic but readable impression.
 - Divide the page into distinct sections using clear headings and dividers to ensure a structured and scannable layout.
-- Use a consistent set of minimalist icons for contact information and social media links.
+- Use a consistent set of minimalist icons for contact information.
